@@ -10,6 +10,11 @@
     print("Number of",len(things))
 
 # Here are some code about amount of floors, walls and walls area
+    import os
+
+    # Clearing the Screen
+    os.system('cls')
+
     import ifcopenshell
     from bonsai.bim.ifc import IfcStore
     file=IfcStore.get_file()
