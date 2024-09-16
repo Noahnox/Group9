@@ -10,19 +10,19 @@ things = file.by_type('IfcWall')
 print("Number of",len(things))
 
 # Here are some code about amount of floors, walls and walls area
-import ifcopenshell
-from bonsai.bim.ifc import IfcStore
-file=IfcStore.get_file()
-wall = file.by_type('IfcWall')
-print("Number of walls:",len(wall))
+    import ifcopenshell
+    from bonsai.bim.ifc import IfcStore
+    file=IfcStore.get_file()
+    wall = file.by_type('IfcWall')
+    print("Number of walls:",len(wall))
 
-floor = file.by_type('IfcBuildingStorey')
-print("Number of floors:",len(floor))
+    floor = file.by_type('IfcBuildingStorey')
+    print("Number of floors:",len(floor))
 
-import bpy
-import bmesh
+    import bpy
+    import bmesh
 
-def calculate_wall_area():
+    def calculate_wall_area():
     wall_area = 0.0
     
     # Iterate through all mesh objects in the scene
