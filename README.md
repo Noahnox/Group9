@@ -48,4 +48,4 @@ def calculate_wall_area():
 
 # Calculate wall area and print it
 total_wall_area = calculate_wall_area()
-print(f"Total wall area: {total_wall_area:.2f} square units")
+print(f"Total wall area: {total_wall_area:.2f} square meters")
