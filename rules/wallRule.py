@@ -7,8 +7,7 @@ print("Number of walls:",len(wall))
 floor = file.by_type('IfcBuildingStorey')
 print("Number of floors:",len(floor))
 
-import bpy
-import bmesh
+import ifcopenshell
 
 def calculate_wall_area():
 wall_area = 0.0
