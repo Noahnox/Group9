@@ -20,31 +20,32 @@ floor = file.by_type('IfcBuildingStorey')
 print("Number of floors:",len(floor))
 
 import ifcopenshell
+import ifcopenshell.util.element
 
-def calculate_wall_area():
-wall_area = 0.0
+def calculate_wall_area(ifc_file_path):
+    # Load the IFC file
+    ifc_file = ifcopenshell.open(ifc_file_path)
 
-# Iterate through all mesh objects in the scene
-for obj in bpy.context.scene.objects:
-    if obj.type == 'MESH':
-        # Ensure we are dealing with a mesh
-        mesh = obj.data
-       
-        # Create a BMesh from the mesh
-        bm = bmesh.new()
-        bm.from_mesh(mesh)
-       
-        # Iterate through all faces in the BMesh
-        for face in bm.faces:
-            # Check if the face normal is aligned with the Z axis (walls)
-            if face.normal.z != 0:  # You can adjust the condition as needed
-                wall_area += face.calc_area()
-       
-        # Free the BMesh
-        bm.free()
+    wall_area = 0.0
 
-return wall_area
+    # Find all walls in the IFC file
+    walls = ifc_file.by_type('IfcWall')
 
-# Calculate wall area and print it
-total_wall_area = calculate_wall_area()
+    for wall in walls:
+        # Extract the geometry of the wall (using IfcOpenShell utility functions)
+        shape = ifcopenshell.util.element.get_geometry(ifc_file, wall)
+
+        # If the geometry exists and contains a valid shape
+        if shape:
+            for face in shape['faces']:
+                # Normal vector and area calculation for each face
+                normal = face.normal
+                if normal[2] == 0:  # Check if the face normal is aligned with the Z-axis (horizontal)
+                    wall_area += face.calc_area()
+
+    return wall_area
+
+# Example usage: Calculate the total wall area
+ifc_file_path = "path_to_your_ifc_file.ifc"
+total_wall_area = calculate_wall_area(ifc_file_path)
 print(f"Total wall area: {total_wall_area:.2f} square meters")
