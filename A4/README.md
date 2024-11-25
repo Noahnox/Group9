@@ -1,1 +1,1 @@
-![Diagram of BIM use case](A3_diagram.svg)
+![Diagram of BIM use case](diagram.svg)
