@@ -1,5 +1,5 @@
 # About the tool 
-### Group 9
+#### Group 9
 ### Noah Whiddon Carlsson - s243671 
 ### 
 ## State the problem / claim that your tool is solving.
