@@ -33,4 +33,4 @@ The fire safety engineers, architects
 ## What information is required in the model for your tool to work?
 The tool requires the model to have defined what floor the ground level is located with any of the names "Ground Floor", "Level 0", "Ground". After the tool can define what floor is the ground floor it can begin counting the number of floors above ground as well as the height of the building from the ground floor.
 
-
+![Diagram of BIM use case](diagram.svg)
