@@ -2,11 +2,12 @@
 #### Group 9 
 #### Noah Whiddon Carlsson - s243671 
 #### Gudný Birna Sigurdardóttir - s242686 
-## State the problem / claim that your tool is solving.
-The claim we are checking with the help of our tool is if building 11 needs a pressurized staircase, and if the building needs a fire fighter lift according to the Icelandic regulations and guidelines.
-Our tool is also made for checking what fire safety regulations and guidelines the building needs to have according to the Icelandic building laws. If for example what safety standard it should follow EI60 or more also if there is a requirement for a door lock (sluss) on the different floors. 
-## State where you found that problem.
-This tool will help fire engineers during the early stage of the planning of the building. If they use our tool they will directly get the requirements guidelines for the specific height and number of floors the building has. Which lowers the chance of making a mistake in the planning of the stairwells and makes the job as a fire engineer more efficient. 
+## Problem/Claim the Tool is Solving
+The primary claim being addressed by the tool is determining whether Building 11 requires a pressurized staircase and/or a firefighter lift according to Icelandic building regulations and guidelines. 
+Additionally, the tool specifies what features the building must have according to. If for example what safety standard it should follow for fire compartments, structural elements or more also if there is a requirement for a door lock (sluss) on the different floors. 
+## Origin of the Problem
+This issue arises during the early planning stages of building design, a critical phase where fire safety engineers must determine appropriate fire safety measures based on the building's height, number of floors, and intended use. 
+If they use our tool they will directly get the requirements guidelines for the specific height and number of floors the building has. Which lowers the chance of making a mistake in the planning of the stairwells and makes the job as a fire engineer more efficient. 
 ## Description of the tool
 The tool finds out the building height from the ground floor up to the roof and the number of floors. With this information the tool will go over the requirements and can give out what kind of staircases are needed and if there should be a fire fighter lift.
 ## Instructions to run the tool.
