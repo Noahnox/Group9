@@ -1,7 +1,5 @@
 # About the tool 
-#### Group 9
-#### Noah Whiddon Carlsson - s243671 
-#### Gudný Birna Sigurdardóttir - s242686 
+#### Group 9 #### Noah Whiddon Carlsson - s243671 #### Gudný Birna Sigurdardóttir - s242686 
 ## State the problem / claim that your tool is solving.
 The claim we are checking with the help of our tool is if building 11 needs a pressurized staircase, and if the building needs a fire fighter lift according to the Icelandic regulations and guidelines.
 Our tool is also made for checking what fire safety regulations and guidelines the building needs to have according to the Icelandic building laws. If for example what safety standard it should follow EI60 or more also if there is a requirement for a door lock (sluss) on the different floors. 
