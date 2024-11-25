@@ -1,12 +1,12 @@
-##{About the tool} 
-•	#State the problem / claim that your tool is solving.
+## {About the tool} 
+# State the problem / claim that your tool is solving.
 The claim we are checking with the help of our tool is if building 11 needs a pressurized staircase, and if the building needs a fire fighter lift according to the Icelandic regulations and guidelines.
 Our tool is also made for checking what fire safety regulations and guidelines the building needs to have according to the Icelandic building laws. If for example what safety standard it should follow EI60 or more also if there is a requirement for a door lock (sluss) on the different floors. 
-•	#State where you found that problem.
+# State where you found that problem.
 This tool will help fire engineers during the early stage of the planning of the building. If they use our tool they will directly get the requirements guidelines for the specific height and number of floors the building has. Which lowers the chance of making a mistake in the planning of the stairwells and makes the job as a fire engineer more efficient. 
-•	#Description of the tool
+# Description of the tool
 The tool finds out the building height from the ground floor up to the roof and the number of floors. With this information the tool will go over the requirements and can give out what kind of staircases are needed and if there should be a fire fighter lift.
-•	# Instructions to run the tool.
+# Instructions to run the tool.
 
 step 1: Get your hands on the IFC model file and add it to your model folder
 
