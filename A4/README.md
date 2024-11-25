@@ -1,14 +1,1 @@
-const {
-  convertAll
-} = require('bpmn-to-image');
-
-await convertAll([
-  {
-    input: 'flowchart .bpmn',
-    outputs: [
-      'diagram.pdf',
-      'diagram.png'
-      'diagram.svg'
-    ]
-  }
-]);
+![Diagram of BIM use case](A3_diagram.svg)
