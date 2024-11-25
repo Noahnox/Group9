@@ -20,3 +20,13 @@ step 5: When you are set to run the tool press on the button run python file and
 
 step 6: When the tool is done running you will see the total height of the building over ground and the total number of floors over ground in your IFC file, and lastly the requirements and guidelines for your IFC file according to your countries. 
 
+## Advanced Building Design feedback for next year 
+# What Advanced Building Design Stage (A, B, C or D) would your tool be useful?
+Our tool is useful in A or B, the early stage of the building modeling, where the model has the amount of floors and the height of the building. The fire exits are normally in the core of the building and the core is one of the first modeled parts of a building. And to be able to model it you have to know the wall thickness and how the floor plan should look around the core regarding the requirements seas about the if we need a door sluss. 
+
+# Which subjects might use it?
+The fire safety engineers, architects
+# What information is required in the model for your tool to work?
+The tool requires the model to have defined what floor the ground level is located with any of the names "Ground Floor", "Level 0", "Ground". After the tool can define what floor is the ground floor it can begin counting the number of floors above ground as well as the height of the building from the ground floor.
+
+
