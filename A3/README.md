@@ -22,7 +22,7 @@ step 2: Rename the IFC model file to a memorable and recognizable name.
 
 step 3:  Open the tool and add the path to your IFC model where it says [model = ifcopenshell.open(“your path hear”) ]
 
-Modify lines 61 and 64 of the script to align with your country's building regulations and fire safety guidelines, considering the building's height and number of floors above ground.
+Modify lines 64, 65, 67, 68, and 71 of the script to align with your country's building regulations and fire safety guidelines, considering the building's height and number of floors above ground.
 
 step 5: When you are set to run the tool press on the button run python file and sit back and enjoy, the tool can take some time it really depends on the size of the IFC file. 
 
