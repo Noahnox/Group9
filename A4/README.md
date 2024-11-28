@@ -3,7 +3,7 @@
 
 ### Video tutorials
 
-- [Video Tutorial #1]( (https://youtu.be/K9nn7htir8w) )
+- [Video Tutorial #1](https://www.youtube.com/watch?v=K9nn7htir8w)
 
 
 ## Explanation of python code
