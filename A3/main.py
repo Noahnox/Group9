@@ -1,7 +1,9 @@
+# pip install ifcopenshell 
+
 from importlib.metadata import files
 import ifcopenshell
 
-model = ifcopenshell.open("C:/Users/noahw/OneDrive/Skrivbord/model/model_11STR.ifc")
+model = ifcopenshell.open("C:/Users/noahw/OneDrive/Skrivbord/model/.ifc") 
 
 # Find all IfcBuildingStorey entities
 storeys = model.by_type('IfcBuildingStorey')
@@ -33,12 +35,14 @@ for storey in storeys:
     if topmost_floor is None or elevation > topmost_floor.Elevation:
         topmost_floor = storey
 
-
-
 # Calculate building height if both floors are found
 if ground_floor and topmost_floor:
     building_height = topmost_floor.Elevation - ground_floor.Elevation
-    print(f"The building height from the ground floor is: {building_height} millimeters.")
+    
+    if building_height > 1000:
+        building_height /= 1000
+
+    print(f"The building height from the ground floor is: {building_height} meters.")
 else:
     print("Ground floor or topmost floor not identified.")
 
@@ -55,13 +59,13 @@ if ground_floor:
 else:
     print("Ground floor not identified.")
 
+
 # if the total building height is under or 12 meters or if the toatal number of floors are les then 4. 
-if building_height <= 12000 or floor_count <= 4:
+if building_height < 12 or floor_count < 4:
     print("Staircase 1 in the building must be an independent fire compartment with a minimum fire resistance rating of EI 60.")
 # if the total building height is more than 12 meters and less than or equal to 23 meters or if the total number of floors is more than 4 and less than or equal to 8.
-elif 12000 < building_height <= 23000 or 4 < floor_count <= 8: 
+elif 12 < building_height < 23 or 4 < floor_count < 8: 
     print("Staircase 2 in the building must be an independent fire compartment with a minimum fire-resistance rating of EI 60. It must be specially protected to prevent fire and smoke from entering the stairwell. The connection between the basement and Staircase 2 must be via an outdoor area or a sluss. Additionally, each floor should be equipped with a standpipe.")
 # if the total building height is over 23 meters or if the total number of floors are more then 8. 
 else: 
     print("Staircase 3 in the building must be an independent fire compartment and must be specially protected to prevent fire and smoke from entering the stairwell. The fire compartment must have the same fire resistance rating as the rest of the building’s structure, EI XX. Access to and from the stairwell must be provided through an open area or a pressurized sluss. The building must also include a firefighter lift with a dedicated sluss. Additionally, a standpipe should be installed on every floor. ")
-
