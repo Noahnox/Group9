@@ -26,9 +26,7 @@ Modify lines 64, 65, 67, 68, and 71 of the script to align with your country's b
 
 step 5: When you are set to run the tool press on the button run python file and sit back and enjoy, the tool can take some time it really depends on the size of the IFC file. 
 
-step 6: After the tool finishes running, it will display it will display the building’s total height and number of floors above ground, along with the relevant requirements and guidelines based on your country’s regulations.
-
-## Advanced Building Design feedback for next year 
+step 6: After the tool finishes running, it will display it will display the building’s total height and number of floors above ground, along with the relevant requirements and guidelines based on your country’s regulations. 
 
 ## What Advanced Building Design Stage (A, B, C or D) would your tool be useful?
 The tool is most useful in stages A or B, the early stages of building modeling, where the model has the amount of floors and the height of the building. The fire exits are normally in the core of the building and the core is one of the first modeled parts of a building. And to be able to model it you have to know the wall thickness and how the floor plan should look around the core regarding the requirements seas about the if we need a door sluss. 
