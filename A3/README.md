@@ -1,7 +1,5 @@
 # About the tool 
 #### Group 9 
-#### Noah Whiddon Carlsson - s243671 
-#### Guðný Birna Sigurðardóttir - s242686 
 
 ## Purpose of the Tool
 The primary claim being addressed by the tool is determining whether Building 11 requires a pressurized staircase and/or a firefighter lift according to Icelandic building regulations and guidelines. 
