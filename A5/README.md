@@ -5,17 +5,17 @@ At the beginning of the course, our skill level was at a "modeler" level, and by
 While we have improved, there is still much to learn, particularly in enhancing our coding skills and exploring the full potential of OpenBIM.
 This course introduced us to OpenBIM, and we both believe it has practical applications in our future work. We’ve learned that creating tools not only increases efficiency but also has the potential to streamline processes across various job roles.
 
-##Your process of developing the tutorial
+## Your process of developing the tutorial
 Since this is our first year at DTU, we haven’t thought about it in terms of thesis work yet. However, the process might serve as an alternative or inspiration in the future.
 No, having a wide range of options was valuable as it allowed us to brainstorm and focus on what we found interesting. However, the course could benefit from clearer guidance, particularly at the beginning, to help students understand the expectations and get started with coding and software tools. More up-to-date briefings tailored for beginners would be helpful.
 The number of tools was sufficient. The assignment structure, particularly Assignment 1 (A1), where we worked in a large group with a manager, was a good idea for helping everyone gain a baseline understanding of the course. However, its effectiveness depended heavily on the manager’s understanding of the course. In our case, it felt like the managers didn’t fully grasp what we were doing, which made the process more challenging. Despite this, we believe the number of tools provided was appropriate.
 
-##(As a group) summary of the feedback you received on your tutorial 
+## (As a group) summary of the feedback you received on your tutorial 
 The feedback highlights that our tool effectively addresses the identified use case of helping fire engineers assess fire safety requirements, such as determining the need for specific walls, stairs, or firefighter elevators. It was considered a useful component of a broader fire safety assessment process.
 Peers noted that while the tool is useful, more time and data could have been invested to enhance its functionality. Limited knowledge of coding and the subject matter posed challenges in expanding the scope.
 The tool was positively received but would benefit from broader regional applicability and further refinement to maximize its utility.
 
-##(Individual) Your future for Advanced use of OpenBIM
+## (Individual) Your future for Advanced use of OpenBIM
 Guðný: I am likely to use OpenBIM tool in my thesis. Whether it is a part of my thesis or to check out some measurements. There are a lot of options that can be useful. This can also prevent errors in my thesis.
 I see a lot of potential in using OpenBIM tools in my professional life in the next 10 years. In engineering work, there is a lot of checking the same things over and over again in every single project, as no two projects are the same. With OpenBIM, you can create a tool that looks at this specific thing that is being checked and accelerates the process of getting information about the models. OpenBIM can also prevent errors that can occure especially when many areas of work work together.
 
