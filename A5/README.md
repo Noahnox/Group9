@@ -1,7 +1,8 @@
 # A5 reflect
 
 ## Your learning experience for the concept you focused on.
-At the beginning of the course, our skill level was at a "modeler" level, and by the end, we progressed to being near "analyst" level. Initially, it was more about "not knowing what we don’t know," but now we’ve reached a stage of "knowing what we don’t know," as Tim illustrated in one of the first lessons.
+At the beginning of the course, our skill level was at a "modeler" level, and by the end, we progressed to being near "analyst" level. Initially, it was more about "not knowing what we don’t know," but now we’ve reached a stage of "knowing what we don’t know," as Tim illustrated in one of the first lessons.![image](https://github.com/user-attachments/assets/49376eb7-c026-4b7f-8e26-2253da0ea610)
+
 
 While we have improved, there is still much to learn, particularly in enhancing our coding skills and exploring the full potential of OpenBIM.
 
