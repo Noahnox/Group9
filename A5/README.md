@@ -34,11 +34,15 @@ I think OpenBIM will be really important in the future—it seems like a great w
 
 ## (Individual) Wrap up
 Guðný:
--	A1: 
--	A2:
--	A3:
--	A4:
--	A5: 
+-	A1: In A1, we decided on our focus area and got familiar with Blender. We also learned what data is available in the IFC model and where to find it. There were challenges with submitting A3 because we didn’t know how to create the function, but with help from our managers, we managed to submit the assignment.
+
+-	A2: In A2, we learned how to use Python coding to extract various data from an IFC file. We also brainstormed ideas to conceptualize how we wanted our tool to look and function.
+  
+-	 In A3, we delved deeper into our tool, considering how it could be useful and describing additional features we would develop or improve further.
+  
+-	A4: We created a tutorial for others on how to use our tool, including a video and a flowchart.
+  
+-	A5: After submitting the final assignment, I realized how OpenBIM can be used to extract specific information. This can significantly aid repetitive tasks and help verify if mistakes have been made. I also see how our program can be further developed, and who knows – it might even be taken to the next level.
 
 
 Noah: 
